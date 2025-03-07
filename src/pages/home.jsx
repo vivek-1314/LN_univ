@@ -2,14 +2,14 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div className='relative h-screen w-full pt-2 flex flex-col'>
+    <div className='relative min-h-screen w-full pt-2 flex flex-col'>
 
-      <div className="absolute w-170 h-170 bg-[radial-gradient(50%_50%_at_50%_50%,rgba(255,254,250,0.42)_0%,rgba(255,239,120,0.3192)_100%)] rounded-full left-1/2 top-[26rem] -z-10 -translate-x-1/2 -translate-y-1/2"></div>
+      <div className="absolute w-[53vw] h-[53vw] bg-[radial-gradient(50%_50%_at_50%_50%,rgba(255,254,250,0.42)_0%,rgba(255,239,120,0.3192)_100%)] rounded-full left-1/2 top-[26rem] -z-10 -translate-x-1/2 -translate-y-1/2"></div>
 
       <div className="header px-10 flex justify-between items-end">
-        <img className='w-[125px] h-[42px] ' src="./logos/lnct_logo.png" alt="" />
-        <img className='w-[90px] h-[65px] relative -left-3' src="./logos/lnuniv_logo.png" alt="" />
-        <img className='w-[125px] h-[50px]' src="./logos/jnct_logo.png" alt="" />
+        <img className='w-27 h-10 ' src="./logos/lnct_logo.png" alt="" />
+        <img className='w-22 h-16  relative -left-3' src="./logos/lnuniv_logo.png" alt="" />
+        <img className='w-27 h-10' src="./logos/jnct_logo.png" alt="" />
       </div>
 
       <div className="w-full py-5 mt-4 mb-10 flex flex-col justify-between gap-4  items-center">
@@ -23,17 +23,15 @@ const Home = () => {
 '>Experience some of the best moments of your life.</span>
       </div>
 
-      <div className="min-h-[38rem] mt-10 relative w-full">
+      <div className="min-h-[46.9vw] mt-10 relative w-full">
 
-      <button className="absolute -top-4 left-1/2 transform -translate-x-1/2  bg-[#0F1C3E] font-inter font-semibold text-white px-8 rounded-3xl text-md weigt py-2 flex justify-center items-center ">
+      <button className="absolute w-[13%] -top-4 left-1/2 transform -translate-x-1/2  bg-[#0F1C3E] font-inter font-semibold text-white rounded-3xl text-md  py-2 flex justify-center items-center ">
         Explore Events
       </button>
 
-    <svg
-      width="620"
-      height="590"
+      <svg
       viewBox="0 0 620 590"
-      className="w-[35rem] h-[34rem] absolute bottom-4 left-1/2 transform -translate-x-1/2"
+      className="w-[44%] h-auto absolute bottom-1 left-1/2 transform -translate-x-1/2"
     >
         <defs>
         <clipPath id="clip-shape1">
@@ -56,7 +54,7 @@ const Home = () => {
     <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 540 460"
-    className="w-[32rem] h-[27rem] absolute top-0 left-1 "
+    className="w-[41%] h-auto absolute top-0 left-1 "
   >
     <defs>
      <clipPath id="clip-shape2">
@@ -79,8 +77,8 @@ const Home = () => {
       xmlns="http://www.w3.org/2000/svg"
       width="601"
       height="594"
-      viewBox="0 0 600 610"
-      className="w-[34rem] h-[35rem] absolute bottom-1 left-2"
+      viewBox="0 0 601 594"
+      className="w-[44%] h-auto absolute bottom-1 left-1"
     >
          <defs>
          <clipPath id="clip-shape3">
@@ -99,13 +97,13 @@ const Home = () => {
         clipPath="url(#clip-shape3)"
       />
     </svg>
-
+      
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="526"
       height="460"
       viewBox="0 0 526 460"
-      className="w-[32rem] h-[27rem] absolute top-0 right-0"
+      className="w-[40%] h-auto absolute top-0 right-1"
     >
          <defs>
          <clipPath id="clip-shape4">
@@ -130,7 +128,7 @@ const Home = () => {
       width="601"
       height="594"
       viewBox="0 0 601 594"
-      className="w-[34rem] h-[35rem] absolute bottom-3 right-2"
+      className="w-[44%] h-auto absolute bottom-1 right-1"
     >
           <defs>
           <clipPath id="clip-shape5">
@@ -149,6 +147,7 @@ const Home = () => {
         clipPath="url(#clip-shape5)"
       />
     </svg>
+
 
 
     </div>
